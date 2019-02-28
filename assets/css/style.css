@@ -1,0 +1,323 @@
+header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+    padding: 10px 0px 0px 38px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-image: url('..//images/white-waves.png')
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 0px;
+    margin-left: 183px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 180px;
+    padding: 10px;
+}
+.nav {
+    float: right;
+    display: inline;
+    margin-right: 251px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+    color: #777777;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    float: left;
+    margin: 20px 20px 0px 0px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #777777;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+/* Contact me form */
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 10px;
+}
+
+input {
+    width: 958px;
+    line-height: 1.5;
+    margin: 10px 0px 10px 0px;
+}
+
+textarea {
+    width: 958px;
+    height: 140px;
+    border: 1px solid #dddddd;
+    margin: 10px 0px 5px 0px;
+}
+
+.content {
+    border: 1px solid #dddddd;
+    width: 960px;
+    margin: 140px auto 80px auto;
+    padding: 0px 20px 20px 20px;
+    line-height: 1.5;
+    background-color: white;
+    overflow: auto;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: none;
+    margin-top: 5px;
+}
+
+/* Portfolio Boxes */
+
+.abox {
+    float: left;
+    background-image: url("../images/lightblur.jpg");
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    margin: 20px 15px 20px 0px;
+}
+
+.bbox {
+    float: left;
+    background-image: url("../images/wetpaint.jpg");
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    margin: 20px 0px 20px 15px;
+}
+
+.cbox {
+    float: left;
+    background-image: url("../images/colorclouds.jpg");
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    margin: 20px 15px 20px 0px;
+}
+
+.dbox {
+    float: left;
+    background-image: url("../images/pattern.jpg");
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    margin: 20px 0px 20px 15px;
+}
+
+.ebox {
+    float: left;
+    background-image: url("../images/abstract-q-c-200-200-7.jpg");
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    margin: 20px 15px 0px 0px;
+}
+
+#linkedin {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #4aaaa5;
+}
+
+/* For screens between 980px and 768px in width */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-top: 0;
+    }
+
+    h1 {
+        margin-left: 88px;
+    }
+
+    .nav {
+        margin-right: 157px;
+    }
+    
+    .content {
+        width: 70%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .abox {
+        margin-left: 89px;
+
+    }
+
+    .cbox {
+        margin-left: 89px;
+    }
+
+    .ebox {
+        margin-left: 89px;
+    }
+}
+
+/* For screens between 640px and 768px in width */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        margin-left: 56px;
+    }
+
+    .nav {
+        margin-right: 126px;
+    }
+
+    .abox {
+        margin-left: 13px;
+    }
+
+    .cbox {
+        margin-left: 13px;
+    }
+
+    .ebox {
+        margin-left: 13px;
+    }
+}
+
+/* For screens below 640px in width */
+
+@media screen and (max-width: 640px) {
+    header {
+        padding-left: 0;
+        padding-bottom: 44px;
+    }
+
+    h1 {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    .nav {
+        float: none;
+        position: fixed;
+        top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        float: none;
+        margin-left: 49px;
+    }
+
+    h3 {
+        padding: 15px;
+        margin-top: 275px;
+        font-size: 20px;
+    }
+    
+    .abox {
+        clear: both;
+        margin-left: 49px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .bbox {
+        clear: both;
+        margin-left: 49px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .cbox {
+        clear: both;
+        margin-left: 49px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .dbox {
+        clear: both;
+        margin-left: 49px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .ebox {
+        clear: both;
+        margin-left: 49px;
+        height: 350px;
+        width: 350px;
+    }
+}
